@@ -1,4 +1,4 @@
-package glim.antony.example.streaming.web.conf;
+package example.streaming.web.server.conf;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package glim.antony.example.streaming.web.controllers.rest.v1;
+package example.streaming.web.server.controllers.rest.v1;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;

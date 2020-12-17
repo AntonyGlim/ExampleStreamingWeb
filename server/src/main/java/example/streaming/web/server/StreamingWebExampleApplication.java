@@ -1,4 +1,4 @@
-package glim.antony.example.streaming.web;
+package example.streaming.web.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

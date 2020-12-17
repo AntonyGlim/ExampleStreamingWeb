@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Slf4j
 @RestController
-@RequestMapping("/")
+@RequestMapping("/test")
 public class TestController {
-    @GetMapping("/test")
+    @GetMapping("")
     public String testEndpoint(HttpServletRequest req) {
         log.info("<-<- from '{}'", req.getRequestURL());
         return "successful test connection";

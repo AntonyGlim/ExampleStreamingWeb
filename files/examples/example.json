@@ -1,0 +1,1460 @@
+{
+	"blackListItems": [
+		{
+			"id": 6,
+			"idSession": 14,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-11T10:57:53.357+00:00",
+			"sessionUuid": "1F542B2F-6885-4DAE-AABD-C37A7E59BC7E",
+			"notValidBefore": "2020-12-11T11:07:06.473+00:00"
+		},
+		{
+			"id": 10,
+			"idSession": 1016,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T05:39:23.043+00:00",
+			"sessionUuid": "AA2463B8-5590-489F-A9F7-3ADB0D7D8886",
+			"notValidBefore": "2020-12-14T05:39:46.167+00:00"
+		},
+		{
+			"id": 13,
+			"idSession": 1017,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T05:46:08.507+00:00",
+			"sessionUuid": "08DCA697-2E67-44E0-85F5-626247BA55F6",
+			"notValidBefore": "2020-12-14T05:49:03.333+00:00"
+		},
+		{
+			"id": 16,
+			"idSession": 1018,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-14T05:55:43.123+00:00",
+			"sessionUuid": "DE1E0233-DA51-41C8-9B2C-DA8EA5426CCD",
+			"notValidBefore": "2020-12-14T05:56:24.503+00:00"
+		},
+		{
+			"id": 19,
+			"idSession": 1019,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T06:00:54.360+00:00",
+			"sessionUuid": "5318A0A5-2034-4E8F-9097-C972BB7706DC",
+			"notValidBefore": "2020-12-14T06:00:53.620+00:00"
+		},
+		{
+			"id": 22,
+			"idSession": 1020,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T06:01:34.847+00:00",
+			"sessionUuid": "23722C66-E443-4A74-ACFF-91B65902AF08",
+			"notValidBefore": "2020-12-14T06:02:17.380+00:00"
+		},
+		{
+			"id": 25,
+			"idSession": 1021,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T06:41:03.917+00:00",
+			"sessionUuid": "592ADD08-4B9D-4BE5-869C-EEF136B35AE5",
+			"notValidBefore": "2020-12-14T06:47:36.337+00:00"
+		},
+		{
+			"id": 28,
+			"idSession": 1023,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T08:32:36.230+00:00",
+			"sessionUuid": "CBE1ABD7-7A86-494E-861C-12820FBABFE4",
+			"notValidBefore": "2020-12-14T08:32:54.583+00:00"
+		},
+		{
+			"id": 29,
+			"idSession": 1023,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T10:32:39.967+00:00",
+			"sessionUuid": "CBE1ABD7-7A86-494E-861C-12820FBABFE4",
+			"notValidBefore": "2020-12-14T08:32:54.600+00:00"
+		},
+		{
+			"id": 30,
+			"idSession": 1023,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T10:32:39.980+00:00",
+			"sessionUuid": "CBE1ABD7-7A86-494E-861C-12820FBABFE4",
+			"notValidBefore": "2020-12-14T08:32:54.600+00:00"
+		},
+		{
+			"id": 31,
+			"idSession": 1025,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T09:29:49.483+00:00",
+			"sessionUuid": "4B7775ED-E39A-4A09-89C7-FA0AE01D1D60",
+			"notValidBefore": "2020-12-14T09:47:41.380+00:00"
+		},
+		{
+			"id": 32,
+			"idSession": 1025,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T11:29:49.530+00:00",
+			"sessionUuid": "4B7775ED-E39A-4A09-89C7-FA0AE01D1D60",
+			"notValidBefore": "2020-12-14T09:47:41.393+00:00"
+		},
+		{
+			"id": 33,
+			"idSession": 1025,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T11:29:49.577+00:00",
+			"sessionUuid": "4B7775ED-E39A-4A09-89C7-FA0AE01D1D60",
+			"notValidBefore": "2020-12-14T09:47:41.410+00:00"
+		},
+		{
+			"id": 34,
+			"idSession": 1024,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T08:56:01.453+00:00",
+			"sessionUuid": "B74D3CF6-B648-4002-83E0-088880935F72",
+			"notValidBefore": "2020-12-14T09:48:00.397+00:00"
+		},
+		{
+			"id": 35,
+			"idSession": 1024,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T10:56:01.540+00:00",
+			"sessionUuid": "B74D3CF6-B648-4002-83E0-088880935F72",
+			"notValidBefore": "2020-12-14T09:48:00.397+00:00"
+		},
+		{
+			"id": 36,
+			"idSession": 1024,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T10:56:01.547+00:00",
+			"sessionUuid": "B74D3CF6-B648-4002-83E0-088880935F72",
+			"notValidBefore": "2020-12-14T09:48:00.397+00:00"
+		},
+		{
+			"id": 37,
+			"idSession": 1027,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T09:59:21.167+00:00",
+			"sessionUuid": "DFC60735-5F1E-4FFE-8AEA-7F1359B56340",
+			"notValidBefore": "2020-12-14T09:59:37.230+00:00"
+		},
+		{
+			"id": 38,
+			"idSession": 1027,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T11:59:21.230+00:00",
+			"sessionUuid": "DFC60735-5F1E-4FFE-8AEA-7F1359B56340",
+			"notValidBefore": "2020-12-14T09:59:37.230+00:00"
+		},
+		{
+			"id": 39,
+			"idSession": 1027,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T11:59:21.230+00:00",
+			"sessionUuid": "DFC60735-5F1E-4FFE-8AEA-7F1359B56340",
+			"notValidBefore": "2020-12-14T09:59:37.260+00:00"
+		},
+		{
+			"id": 40,
+			"idSession": 1029,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T10:01:44.493+00:00",
+			"sessionUuid": "6ADAE34D-F167-4E79-8D63-06BB0C136473",
+			"notValidBefore": "2020-12-14T10:03:12.797+00:00"
+		},
+		{
+			"id": 41,
+			"idSession": 1029,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T12:01:44.557+00:00",
+			"sessionUuid": "6ADAE34D-F167-4E79-8D63-06BB0C136473",
+			"notValidBefore": "2020-12-14T10:03:12.797+00:00"
+		},
+		{
+			"id": 42,
+			"idSession": 1029,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T12:01:44.557+00:00",
+			"sessionUuid": "6ADAE34D-F167-4E79-8D63-06BB0C136473",
+			"notValidBefore": "2020-12-14T10:03:12.797+00:00"
+		},
+		{
+			"id": 43,
+			"idSession": 1030,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T10:03:37.597+00:00",
+			"sessionUuid": "165BAD97-F3BA-4D1D-9601-3BE8ABE5E137",
+			"notValidBefore": "2020-12-14T10:03:43.143+00:00"
+		},
+		{
+			"id": 44,
+			"idSession": 1030,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T12:03:37.660+00:00",
+			"sessionUuid": "165BAD97-F3BA-4D1D-9601-3BE8ABE5E137",
+			"notValidBefore": "2020-12-14T10:03:43.143+00:00"
+		},
+		{
+			"id": 45,
+			"idSession": 1030,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T12:03:37.660+00:00",
+			"sessionUuid": "165BAD97-F3BA-4D1D-9601-3BE8ABE5E137",
+			"notValidBefore": "2020-12-14T10:03:43.143+00:00"
+		},
+		{
+			"id": 46,
+			"idSession": 1026,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T09:51:48.323+00:00",
+			"sessionUuid": "4F9D11CA-DAF7-4B61-BCDF-F6A0DCDEA6C3",
+			"notValidBefore": "2020-12-14T10:14:00.837+00:00"
+		},
+		{
+			"id": 47,
+			"idSession": 1026,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T11:51:48.420+00:00",
+			"sessionUuid": "4F9D11CA-DAF7-4B61-BCDF-F6A0DCDEA6C3",
+			"notValidBefore": "2020-12-14T10:14:00.837+00:00"
+		},
+		{
+			"id": 48,
+			"idSession": 1026,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T11:51:48.437+00:00",
+			"sessionUuid": "4F9D11CA-DAF7-4B61-BCDF-F6A0DCDEA6C3",
+			"notValidBefore": "2020-12-14T10:14:00.850+00:00"
+		},
+		{
+			"id": 49,
+			"idSession": 1031,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T10:03:48.193+00:00",
+			"sessionUuid": "D93B4EA2-8666-4799-887C-343705C1C724",
+			"notValidBefore": "2020-12-14T10:19:29.710+00:00"
+		},
+		{
+			"id": 50,
+			"idSession": 1031,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T12:03:48.240+00:00",
+			"sessionUuid": "D93B4EA2-8666-4799-887C-343705C1C724",
+			"notValidBefore": "2020-12-14T10:19:29.710+00:00"
+		},
+		{
+			"id": 51,
+			"idSession": 1031,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T12:03:48.253+00:00",
+			"sessionUuid": "D93B4EA2-8666-4799-887C-343705C1C724",
+			"notValidBefore": "2020-12-14T10:19:29.710+00:00"
+		},
+		{
+			"id": 52,
+			"idSession": 1028,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T09:59:53.313+00:00",
+			"sessionUuid": "CEAAC837-CD66-4E58-9FAE-4373DE859E5B",
+			"notValidBefore": "2020-12-14T10:46:47.380+00:00"
+		},
+		{
+			"id": 53,
+			"idSession": 1028,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T11:59:53.373+00:00",
+			"sessionUuid": "CEAAC837-CD66-4E58-9FAE-4373DE859E5B",
+			"notValidBefore": "2020-12-14T10:46:47.397+00:00"
+		},
+		{
+			"id": 54,
+			"idSession": 1028,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T11:59:53.390+00:00",
+			"sessionUuid": "CEAAC837-CD66-4E58-9FAE-4373DE859E5B",
+			"notValidBefore": "2020-12-14T10:46:47.397+00:00"
+		},
+		{
+			"id": 55,
+			"idSession": 1033,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T10:59:56.483+00:00",
+			"sessionUuid": "91CF7871-38F0-45EE-96C6-0EE340FB41F2",
+			"notValidBefore": "2020-12-14T11:11:30.383+00:00"
+		},
+		{
+			"id": 56,
+			"idSession": 1033,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T12:59:56.640+00:00",
+			"sessionUuid": "91CF7871-38F0-45EE-96C6-0EE340FB41F2",
+			"notValidBefore": "2020-12-14T11:11:30.383+00:00"
+		},
+		{
+			"id": 57,
+			"idSession": 1033,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T12:59:56.640+00:00",
+			"sessionUuid": "91CF7871-38F0-45EE-96C6-0EE340FB41F2",
+			"notValidBefore": "2020-12-14T11:11:30.383+00:00"
+		},
+		{
+			"id": 58,
+			"idSession": 1032,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T10:32:01.117+00:00",
+			"sessionUuid": "1F68AF46-5814-4468-959A-491807D341B3",
+			"notValidBefore": "2020-12-14T11:13:16.237+00:00"
+		},
+		{
+			"id": 59,
+			"idSession": 1032,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T12:32:01.210+00:00",
+			"sessionUuid": "1F68AF46-5814-4468-959A-491807D341B3",
+			"notValidBefore": "2020-12-14T11:13:16.237+00:00"
+		},
+		{
+			"id": 60,
+			"idSession": 1032,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T12:32:01.217+00:00",
+			"sessionUuid": "1F68AF46-5814-4468-959A-491807D341B3",
+			"notValidBefore": "2020-12-14T11:13:16.237+00:00"
+		},
+		{
+			"id": 61,
+			"idSession": 1034,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T11:03:24.737+00:00",
+			"sessionUuid": "FC6A6334-D3FB-45D8-B135-4AE009A91113",
+			"notValidBefore": "2020-12-14T11:25:00.240+00:00"
+		},
+		{
+			"id": 62,
+			"idSession": 1034,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T13:03:24.797+00:00",
+			"sessionUuid": "FC6A6334-D3FB-45D8-B135-4AE009A91113",
+			"notValidBefore": "2020-12-14T11:25:00.253+00:00"
+		},
+		{
+			"id": 63,
+			"idSession": 1034,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T13:03:24.813+00:00",
+			"sessionUuid": "FC6A6334-D3FB-45D8-B135-4AE009A91113",
+			"notValidBefore": "2020-12-14T11:25:00.287+00:00"
+		},
+		{
+			"id": 64,
+			"idSession": 1035,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T11:12:07.030+00:00",
+			"sessionUuid": "AFFE4D51-D1A7-477C-83F9-2DA6F2E819EC",
+			"notValidBefore": "2020-12-14T11:30:46.267+00:00"
+		},
+		{
+			"id": 65,
+			"idSession": 1035,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T13:12:07.263+00:00",
+			"sessionUuid": "AFFE4D51-D1A7-477C-83F9-2DA6F2E819EC",
+			"notValidBefore": "2020-12-14T11:30:46.283+00:00"
+		},
+		{
+			"id": 66,
+			"idSession": 1035,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T13:12:07.310+00:00",
+			"sessionUuid": "AFFE4D51-D1A7-477C-83F9-2DA6F2E819EC",
+			"notValidBefore": "2020-12-14T11:30:46.283+00:00"
+		},
+		{
+			"id": 67,
+			"idSession": 1036,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T11:17:00.663+00:00",
+			"sessionUuid": "AFC2AA59-DEC2-4C44-BD35-BF8D327940C2",
+			"notValidBefore": "2020-12-14T11:47:15.163+00:00"
+		},
+		{
+			"id": 68,
+			"idSession": 1036,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T13:17:00.773+00:00",
+			"sessionUuid": "AFC2AA59-DEC2-4C44-BD35-BF8D327940C2",
+			"notValidBefore": "2020-12-14T11:47:15.177+00:00"
+		},
+		{
+			"id": 69,
+			"idSession": 1036,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T13:17:00.780+00:00",
+			"sessionUuid": "AFC2AA59-DEC2-4C44-BD35-BF8D327940C2",
+			"notValidBefore": "2020-12-14T11:47:15.177+00:00"
+		},
+		{
+			"id": 70,
+			"idSession": 1037,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T11:48:37.873+00:00",
+			"sessionUuid": "357E5672-2BC1-4D4D-BB35-6269262B625E",
+			"notValidBefore": "2020-12-14T12:04:28.110+00:00"
+		},
+		{
+			"id": 71,
+			"idSession": 1037,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T13:48:37.993+00:00",
+			"sessionUuid": "357E5672-2BC1-4D4D-BB35-6269262B625E",
+			"notValidBefore": "2020-12-14T12:04:28.127+00:00"
+		},
+		{
+			"id": 72,
+			"idSession": 1037,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T13:48:37.997+00:00",
+			"sessionUuid": "357E5672-2BC1-4D4D-BB35-6269262B625E",
+			"notValidBefore": "2020-12-14T12:04:28.127+00:00"
+		},
+		{
+			"id": 73,
+			"idSession": 1038,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T15:48:01.453+00:00",
+			"sessionUuid": "90D19A24-9CD0-44D1-9888-9D11B578121C",
+			"notValidBefore": "2020-12-14T15:48:50.617+00:00"
+		},
+		{
+			"id": 74,
+			"idSession": 1038,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-14T17:48:02.730+00:00",
+			"sessionUuid": "90D19A24-9CD0-44D1-9888-9D11B578121C",
+			"notValidBefore": "2020-12-14T15:48:50.630+00:00"
+		},
+		{
+			"id": 75,
+			"idSession": 1038,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-14T17:48:02.767+00:00",
+			"sessionUuid": "90D19A24-9CD0-44D1-9888-9D11B578121C",
+			"notValidBefore": "2020-12-14T15:48:50.663+00:00"
+		},
+		{
+			"id": 76,
+			"idSession": 1056,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T22:26:09.920+00:00",
+			"sessionUuid": "B60BDAA7-B6C8-4BB6-85C1-B906AF40015B",
+			"notValidBefore": "2020-12-14T22:41:16.437+00:00"
+		},
+		{
+			"id": 77,
+			"idSession": 1056,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T00:26:09.983+00:00",
+			"sessionUuid": "B60BDAA7-B6C8-4BB6-85C1-B906AF40015B",
+			"notValidBefore": "2020-12-14T22:41:16.437+00:00"
+		},
+		{
+			"id": 78,
+			"idSession": 1056,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T00:26:09.983+00:00",
+			"sessionUuid": "B60BDAA7-B6C8-4BB6-85C1-B906AF40015B",
+			"notValidBefore": "2020-12-14T22:41:16.437+00:00"
+		},
+		{
+			"id": 79,
+			"idSession": 1059,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T22:37:30.427+00:00",
+			"sessionUuid": "9F88396B-92D5-404F-BB65-46D75B2C76F5",
+			"notValidBefore": "2020-12-14T23:09:37.940+00:00"
+		},
+		{
+			"id": 80,
+			"idSession": 1059,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T00:37:30.503+00:00",
+			"sessionUuid": "9F88396B-92D5-404F-BB65-46D75B2C76F5",
+			"notValidBefore": "2020-12-14T23:09:37.970+00:00"
+		},
+		{
+			"id": 81,
+			"idSession": 1059,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T00:37:30.517+00:00",
+			"sessionUuid": "9F88396B-92D5-404F-BB65-46D75B2C76F5",
+			"notValidBefore": "2020-12-14T23:09:37.970+00:00"
+		},
+		{
+			"id": 82,
+			"idSession": 1061,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-15T23:55:38.670+00:00",
+			"sessionUuid": "13E9F695-EB84-462A-AC38-542EA7B53D83",
+			"notValidBefore": "2020-12-15T00:22:46.440+00:00"
+		},
+		{
+			"id": 83,
+			"idSession": 1061,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T01:55:39.667+00:00",
+			"sessionUuid": "13E9F695-EB84-462A-AC38-542EA7B53D83",
+			"notValidBefore": "2020-12-15T00:22:46.440+00:00"
+		},
+		{
+			"id": 84,
+			"idSession": 1061,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T01:55:39.687+00:00",
+			"sessionUuid": "13E9F695-EB84-462A-AC38-542EA7B53D83",
+			"notValidBefore": "2020-12-15T00:22:46.440+00:00"
+		},
+		{
+			"id": 85,
+			"idSession": 1062,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T03:14:13.713+00:00",
+			"sessionUuid": "CDEE4517-8D53-4A52-AB6B-749DD16889E6",
+			"notValidBefore": "2020-12-15T03:40:19.383+00:00"
+		},
+		{
+			"id": 86,
+			"idSession": 1062,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T05:14:19.460+00:00",
+			"sessionUuid": "CDEE4517-8D53-4A52-AB6B-749DD16889E6",
+			"notValidBefore": "2020-12-15T03:40:19.383+00:00"
+		},
+		{
+			"id": 87,
+			"idSession": 1062,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T05:14:19.467+00:00",
+			"sessionUuid": "CDEE4517-8D53-4A52-AB6B-749DD16889E6",
+			"notValidBefore": "2020-12-15T03:40:19.383+00:00"
+		},
+		{
+			"id": 88,
+			"idSession": 1063,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T03:25:29.517+00:00",
+			"sessionUuid": "80509638-AF60-4A5C-BEB2-0F49081C0702",
+			"notValidBefore": "2020-12-15T04:02:39.320+00:00"
+		},
+		{
+			"id": 89,
+			"idSession": 1063,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T05:25:29.567+00:00",
+			"sessionUuid": "80509638-AF60-4A5C-BEB2-0F49081C0702",
+			"notValidBefore": "2020-12-15T04:02:39.320+00:00"
+		},
+		{
+			"id": 90,
+			"idSession": 1063,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T05:25:29.580+00:00",
+			"sessionUuid": "80509638-AF60-4A5C-BEB2-0F49081C0702",
+			"notValidBefore": "2020-12-15T04:02:39.320+00:00"
+		},
+		{
+			"id": 91,
+			"idSession": 1022,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-14T07:23:59.967+00:00",
+			"sessionUuid": "7A2313C8-A202-47CF-9CF7-1BE329540122",
+			"notValidBefore": "2020-12-15T04:05:40.317+00:00"
+		},
+		{
+			"id": 92,
+			"idSession": 1022,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:01:22.603+00:00",
+			"sessionUuid": "7A2313C8-A202-47CF-9CF7-1BE329540122",
+			"notValidBefore": "2020-12-15T04:05:40.317+00:00"
+		},
+		{
+			"id": 93,
+			"idSession": 1022,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:01:22.647+00:00",
+			"sessionUuid": "7A2313C8-A202-47CF-9CF7-1BE329540122",
+			"notValidBefore": "2020-12-15T04:05:40.333+00:00"
+		},
+		{
+			"id": 94,
+			"idSession": 1065,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T04:06:46.537+00:00",
+			"sessionUuid": "FB261BC1-A321-4B94-96B2-36110CBD1402",
+			"notValidBefore": "2020-12-15T04:07:50.420+00:00"
+		},
+		{
+			"id": 95,
+			"idSession": 1065,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:07:26.027+00:00",
+			"sessionUuid": "FB261BC1-A321-4B94-96B2-36110CBD1402",
+			"notValidBefore": "2020-12-15T04:07:50.437+00:00"
+		},
+		{
+			"id": 96,
+			"idSession": 1065,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:07:26.050+00:00",
+			"sessionUuid": "FB261BC1-A321-4B94-96B2-36110CBD1402",
+			"notValidBefore": "2020-12-15T04:07:50.453+00:00"
+		},
+		{
+			"id": 97,
+			"idSession": 1066,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T04:08:14.527+00:00",
+			"sessionUuid": "D0FF0EBD-9373-4DA8-BADD-FD0596C744B2",
+			"notValidBefore": "2020-12-15T04:09:10.520+00:00"
+		},
+		{
+			"id": 98,
+			"idSession": 1066,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:08:36.130+00:00",
+			"sessionUuid": "D0FF0EBD-9373-4DA8-BADD-FD0596C744B2",
+			"notValidBefore": "2020-12-15T04:09:10.537+00:00"
+		},
+		{
+			"id": 99,
+			"idSession": 1066,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:08:36.140+00:00",
+			"sessionUuid": "D0FF0EBD-9373-4DA8-BADD-FD0596C744B2",
+			"notValidBefore": "2020-12-15T04:09:10.537+00:00"
+		},
+		{
+			"id": 100,
+			"idSession": 1067,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T04:17:10.093+00:00",
+			"sessionUuid": "0840535B-4F8D-4990-95CF-14A579FA555D",
+			"notValidBefore": "2020-12-15T04:18:08.097+00:00"
+		},
+		{
+			"id": 101,
+			"idSession": 1067,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:17:40.900+00:00",
+			"sessionUuid": "0840535B-4F8D-4990-95CF-14A579FA555D",
+			"notValidBefore": "2020-12-15T04:18:08.190+00:00"
+		},
+		{
+			"id": 102,
+			"idSession": 1067,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:17:40.927+00:00",
+			"sessionUuid": "0840535B-4F8D-4990-95CF-14A579FA555D",
+			"notValidBefore": "2020-12-15T04:18:08.240+00:00"
+		},
+		{
+			"id": 103,
+			"idSession": 1068,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T04:29:55.413+00:00",
+			"sessionUuid": "1E2B4A86-FE69-471F-9D9A-29E6A6F7DBB5",
+			"notValidBefore": "2020-12-15T04:30:27.580+00:00"
+		},
+		{
+			"id": 104,
+			"idSession": 1068,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:30:05.720+00:00",
+			"sessionUuid": "1E2B4A86-FE69-471F-9D9A-29E6A6F7DBB5",
+			"notValidBefore": "2020-12-15T04:30:27.593+00:00"
+		},
+		{
+			"id": 105,
+			"idSession": 1068,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:30:05.733+00:00",
+			"sessionUuid": "1E2B4A86-FE69-471F-9D9A-29E6A6F7DBB5",
+			"notValidBefore": "2020-12-15T04:30:27.593+00:00"
+		},
+		{
+			"id": 106,
+			"idSession": 1069,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T04:35:12.463+00:00",
+			"sessionUuid": "64A645D9-CF0A-4EB5-A7E1-66D5D771E63C",
+			"notValidBefore": "2020-12-15T04:36:45.780+00:00"
+		},
+		{
+			"id": 107,
+			"idSession": 1069,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:35:37.923+00:00",
+			"sessionUuid": "64A645D9-CF0A-4EB5-A7E1-66D5D771E63C",
+			"notValidBefore": "2020-12-15T04:36:45.780+00:00"
+		},
+		{
+			"id": 108,
+			"idSession": 1069,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:35:37.933+00:00",
+			"sessionUuid": "64A645D9-CF0A-4EB5-A7E1-66D5D771E63C",
+			"notValidBefore": "2020-12-15T04:36:45.793+00:00"
+		},
+		{
+			"id": 109,
+			"idSession": 1070,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T04:56:35.307+00:00",
+			"sessionUuid": "DED4AEC1-1E65-41C5-B1AC-96D427FDCAFB",
+			"notValidBefore": "2020-12-15T04:57:26.633+00:00"
+		},
+		{
+			"id": 110,
+			"idSession": 1070,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T06:57:02.347+00:00",
+			"sessionUuid": "DED4AEC1-1E65-41C5-B1AC-96D427FDCAFB",
+			"notValidBefore": "2020-12-15T04:57:26.650+00:00"
+		},
+		{
+			"id": 111,
+			"idSession": 1070,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T06:57:02.363+00:00",
+			"sessionUuid": "DED4AEC1-1E65-41C5-B1AC-96D427FDCAFB",
+			"notValidBefore": "2020-12-15T04:57:26.650+00:00"
+		},
+		{
+			"id": 112,
+			"idSession": 1064,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T03:47:45.300+00:00",
+			"sessionUuid": "55D5E2A2-6091-4977-862C-C7B53C1388BC",
+			"notValidBefore": "2020-12-15T05:20:08.427+00:00"
+		},
+		{
+			"id": 113,
+			"idSession": 1064,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T05:47:45.397+00:00",
+			"sessionUuid": "55D5E2A2-6091-4977-862C-C7B53C1388BC",
+			"notValidBefore": "2020-12-15T05:20:08.443+00:00"
+		},
+		{
+			"id": 114,
+			"idSession": 1064,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T05:47:45.407+00:00",
+			"sessionUuid": "55D5E2A2-6091-4977-862C-C7B53C1388BC",
+			"notValidBefore": "2020-12-15T05:20:08.443+00:00"
+		},
+		{
+			"id": 115,
+			"idSession": 1071,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T05:05:13.253+00:00",
+			"sessionUuid": "FFC1AC1F-CE1F-4F10-8270-C0E4C432070D",
+			"notValidBefore": "2020-12-15T05:22:02.177+00:00"
+		},
+		{
+			"id": 116,
+			"idSession": 1071,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T07:05:13.597+00:00",
+			"sessionUuid": "FFC1AC1F-CE1F-4F10-8270-C0E4C432070D",
+			"notValidBefore": "2020-12-15T05:22:02.177+00:00"
+		},
+		{
+			"id": 117,
+			"idSession": 1071,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T07:05:13.613+00:00",
+			"sessionUuid": "FFC1AC1F-CE1F-4F10-8270-C0E4C432070D",
+			"notValidBefore": "2020-12-15T05:22:02.177+00:00"
+		},
+		{
+			"id": 118,
+			"idSession": 1072,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T05:05:33.973+00:00",
+			"sessionUuid": "A7215FB5-D987-44D6-9036-A62699DDCB0F",
+			"notValidBefore": "2020-12-15T05:25:39.540+00:00"
+		},
+		{
+			"id": 119,
+			"idSession": 1072,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T07:05:34.050+00:00",
+			"sessionUuid": "A7215FB5-D987-44D6-9036-A62699DDCB0F",
+			"notValidBefore": "2020-12-15T05:25:39.553+00:00"
+		},
+		{
+			"id": 120,
+			"idSession": 1072,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T07:05:34.067+00:00",
+			"sessionUuid": "A7215FB5-D987-44D6-9036-A62699DDCB0F",
+			"notValidBefore": "2020-12-15T05:25:39.553+00:00"
+		},
+		{
+			"id": 121,
+			"idSession": 1076,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T05:23:07.217+00:00",
+			"sessionUuid": "D81A0179-B71C-43BD-B8D4-634960B7AE00",
+			"notValidBefore": "2020-12-15T06:05:00.420+00:00"
+		},
+		{
+			"id": 122,
+			"idSession": 1076,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T07:23:07.473+00:00",
+			"sessionUuid": "D81A0179-B71C-43BD-B8D4-634960B7AE00",
+			"notValidBefore": "2020-12-15T06:05:00.437+00:00"
+		},
+		{
+			"id": 123,
+			"idSession": 1076,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T07:23:07.490+00:00",
+			"sessionUuid": "D81A0179-B71C-43BD-B8D4-634960B7AE00",
+			"notValidBefore": "2020-12-15T06:05:00.453+00:00"
+		},
+		{
+			"id": 124,
+			"idSession": 1078,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T06:00:09.447+00:00",
+			"sessionUuid": "610B8731-5FA7-4ECC-B7FF-C4736485BFB3",
+			"notValidBefore": "2020-12-15T06:15:22.197+00:00"
+		},
+		{
+			"id": 125,
+			"idSession": 1078,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T08:00:09.527+00:00",
+			"sessionUuid": "610B8731-5FA7-4ECC-B7FF-C4736485BFB3",
+			"notValidBefore": "2020-12-15T06:15:22.210+00:00"
+		},
+		{
+			"id": 126,
+			"idSession": 1078,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T08:00:09.557+00:00",
+			"sessionUuid": "610B8731-5FA7-4ECC-B7FF-C4736485BFB3",
+			"notValidBefore": "2020-12-15T06:15:22.210+00:00"
+		},
+		{
+			"id": 127,
+			"idSession": 1077,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T05:38:52.127+00:00",
+			"sessionUuid": "C1745E2D-5539-45AD-96B1-9ED0AF9259CC",
+			"notValidBefore": "2020-12-15T06:46:58.067+00:00"
+		},
+		{
+			"id": 128,
+			"idSession": 1077,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T07:38:52.187+00:00",
+			"sessionUuid": "C1745E2D-5539-45AD-96B1-9ED0AF9259CC",
+			"notValidBefore": "2020-12-15T06:46:58.067+00:00"
+		},
+		{
+			"id": 129,
+			"idSession": 1077,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T07:38:52.203+00:00",
+			"sessionUuid": "C1745E2D-5539-45AD-96B1-9ED0AF9259CC",
+			"notValidBefore": "2020-12-15T06:46:58.083+00:00"
+		},
+		{
+			"id": 130,
+			"idSession": 1079,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T06:14:38.007+00:00",
+			"sessionUuid": "C30A2AA9-C0F1-449F-B476-BF1C794687B6",
+			"notValidBefore": "2020-12-15T07:03:46.190+00:00"
+		},
+		{
+			"id": 131,
+			"idSession": 1079,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T08:14:38.103+00:00",
+			"sessionUuid": "C30A2AA9-C0F1-449F-B476-BF1C794687B6",
+			"notValidBefore": "2020-12-15T07:03:46.207+00:00"
+		},
+		{
+			"id": 132,
+			"idSession": 1079,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T08:14:38.110+00:00",
+			"sessionUuid": "C30A2AA9-C0F1-449F-B476-BF1C794687B6",
+			"notValidBefore": "2020-12-15T07:03:46.207+00:00"
+		},
+		{
+			"id": 133,
+			"idSession": 1081,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T07:05:14.827+00:00",
+			"sessionUuid": "BB9807C4-2A3B-4727-A251-D96E8AAEBD08",
+			"notValidBefore": "2020-12-15T07:32:44.407+00:00"
+		},
+		{
+			"id": 134,
+			"idSession": 1081,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T09:05:14.923+00:00",
+			"sessionUuid": "BB9807C4-2A3B-4727-A251-D96E8AAEBD08",
+			"notValidBefore": "2020-12-15T07:32:44.423+00:00"
+		},
+		{
+			"id": 135,
+			"idSession": 1081,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T09:05:14.930+00:00",
+			"sessionUuid": "BB9807C4-2A3B-4727-A251-D96E8AAEBD08",
+			"notValidBefore": "2020-12-15T07:32:44.423+00:00"
+		},
+		{
+			"id": 136,
+			"idSession": 1084,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T08:42:15.047+00:00",
+			"sessionUuid": "9283A5FD-2423-44AB-8614-076A07556DF7",
+			"notValidBefore": "2020-12-15T08:44:18.780+00:00"
+		},
+		{
+			"id": 137,
+			"idSession": 1084,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T10:43:46.243+00:00",
+			"sessionUuid": "9283A5FD-2423-44AB-8614-076A07556DF7",
+			"notValidBefore": "2020-12-15T08:44:18.780+00:00"
+		},
+		{
+			"id": 138,
+			"idSession": 1084,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T10:43:59.647+00:00",
+			"sessionUuid": "9283A5FD-2423-44AB-8614-076A07556DF7",
+			"notValidBefore": "2020-12-15T08:44:18.797+00:00"
+		},
+		{
+			"id": 139,
+			"idSession": 1085,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T08:45:36.590+00:00",
+			"sessionUuid": "6695C20E-6C48-4A3F-A7DE-3EFEA04630BF",
+			"notValidBefore": "2020-12-15T08:48:51.373+00:00"
+		},
+		{
+			"id": 140,
+			"idSession": 1085,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T10:45:47.133+00:00",
+			"sessionUuid": "6695C20E-6C48-4A3F-A7DE-3EFEA04630BF",
+			"notValidBefore": "2020-12-15T08:48:51.390+00:00"
+		},
+		{
+			"id": 141,
+			"idSession": 1085,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T10:46:11.697+00:00",
+			"sessionUuid": "6695C20E-6C48-4A3F-A7DE-3EFEA04630BF",
+			"notValidBefore": "2020-12-15T08:48:51.403+00:00"
+		},
+		{
+			"id": 142,
+			"idSession": 1086,
+			"typeOrApp": "I",
+			"expurgeAfter": "2021-12-15T09:01:06.833+00:00",
+			"sessionUuid": "6B763F86-080B-48F7-BFCA-A9399DC85191",
+			"notValidBefore": "2020-12-15T09:01:31.063+00:00"
+		},
+		{
+			"id": 143,
+			"idSession": 1080,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T06:37:49.380+00:00",
+			"sessionUuid": "5A4FC55E-8339-4B5F-A821-BC104D6C8DA8",
+			"notValidBefore": "2020-12-15T09:41:05.290+00:00"
+		},
+		{
+			"id": 144,
+			"idSession": 1082,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T07:39:30.560+00:00",
+			"sessionUuid": "B17AB510-5B73-472B-BFCF-1C2A46E2FE34",
+			"notValidBefore": "2020-12-15T11:45:59.040+00:00"
+		},
+		{
+			"id": 145,
+			"idSession": 1089,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T11:15:16.770+00:00",
+			"sessionUuid": "62F028DA-1C3C-47CA-917A-E42136372099",
+			"notValidBefore": "2020-12-15T12:05:46.500+00:00"
+		},
+		{
+			"id": 146,
+			"idSession": 1089,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T13:15:16.833+00:00",
+			"sessionUuid": "62F028DA-1C3C-47CA-917A-E42136372099",
+			"notValidBefore": "2020-12-15T12:05:46.517+00:00"
+		},
+		{
+			"id": 147,
+			"idSession": 1089,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T13:15:16.850+00:00",
+			"sessionUuid": "62F028DA-1C3C-47CA-917A-E42136372099",
+			"notValidBefore": "2020-12-15T12:05:46.517+00:00"
+		},
+		{
+			"id": 148,
+			"idSession": 1090,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T11:50:53.203+00:00",
+			"sessionUuid": "F837AC5B-E104-4CC2-810E-7F564F2D4B93",
+			"notValidBefore": "2020-12-15T12:15:37.930+00:00"
+		},
+		{
+			"id": 149,
+			"idSession": 1090,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T13:50:53.297+00:00",
+			"sessionUuid": "F837AC5B-E104-4CC2-810E-7F564F2D4B93",
+			"notValidBefore": "2020-12-15T12:15:37.943+00:00"
+		},
+		{
+			"id": 150,
+			"idSession": 1090,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T13:50:53.303+00:00",
+			"sessionUuid": "F837AC5B-E104-4CC2-810E-7F564F2D4B93",
+			"notValidBefore": "2020-12-15T12:15:37.943+00:00"
+		},
+		{
+			"id": 151,
+			"idSession": 1088,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T11:14:40.847+00:00",
+			"sessionUuid": "E1D18CCF-475A-444E-BF91-066F04D2529A",
+			"notValidBefore": "2020-12-15T12:54:19.253+00:00"
+		},
+		{
+			"id": 152,
+			"idSession": 1088,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T13:14:41.097+00:00",
+			"sessionUuid": "E1D18CCF-475A-444E-BF91-066F04D2529A",
+			"notValidBefore": "2020-12-15T12:54:19.270+00:00"
+		},
+		{
+			"id": 153,
+			"idSession": 1088,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T13:14:41.113+00:00",
+			"sessionUuid": "E1D18CCF-475A-444E-BF91-066F04D2529A",
+			"notValidBefore": "2020-12-15T12:54:19.270+00:00"
+		},
+		{
+			"id": 154,
+			"idSession": 1091,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T12:21:32.567+00:00",
+			"sessionUuid": "E782B3E6-9A70-498A-ACDA-F60AC3F080E5",
+			"notValidBefore": "2020-12-15T13:46:43.123+00:00"
+		},
+		{
+			"id": 155,
+			"idSession": 1091,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T14:21:32.677+00:00",
+			"sessionUuid": "E782B3E6-9A70-498A-ACDA-F60AC3F080E5",
+			"notValidBefore": "2020-12-15T13:46:43.123+00:00"
+		},
+		{
+			"id": 156,
+			"idSession": 1091,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T14:21:32.687+00:00",
+			"sessionUuid": "E782B3E6-9A70-498A-ACDA-F60AC3F080E5",
+			"notValidBefore": "2020-12-15T13:46:43.140+00:00"
+		},
+		{
+			"id": 157,
+			"idSession": 1092,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T13:31:52.427+00:00",
+			"sessionUuid": "834F65FF-E701-494B-9F9C-854E508E7195",
+			"notValidBefore": "2020-12-15T14:02:31.290+00:00"
+		},
+		{
+			"id": 158,
+			"idSession": 1092,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T15:31:52.487+00:00",
+			"sessionUuid": "834F65FF-E701-494B-9F9C-854E508E7195",
+			"notValidBefore": "2020-12-15T14:02:31.290+00:00"
+		},
+		{
+			"id": 159,
+			"idSession": 1092,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T15:31:52.487+00:00",
+			"sessionUuid": "834F65FF-E701-494B-9F9C-854E508E7195",
+			"notValidBefore": "2020-12-15T14:02:31.307+00:00"
+		},
+		{
+			"id": 160,
+			"idSession": 1093,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T13:47:36.540+00:00",
+			"sessionUuid": "16FE88AA-E015-4E7B-B028-1FA13B5D9802",
+			"notValidBefore": "2020-12-15T14:30:31.293+00:00"
+		},
+		{
+			"id": 161,
+			"idSession": 1093,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T15:47:36.633+00:00",
+			"sessionUuid": "16FE88AA-E015-4E7B-B028-1FA13B5D9802",
+			"notValidBefore": "2020-12-15T14:30:31.310+00:00"
+		},
+		{
+			"id": 162,
+			"idSession": 1093,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T15:47:36.640+00:00",
+			"sessionUuid": "16FE88AA-E015-4E7B-B028-1FA13B5D9802",
+			"notValidBefore": "2020-12-15T14:30:31.327+00:00"
+		},
+		{
+			"id": 163,
+			"idSession": 1083,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T07:47:23.283+00:00",
+			"sessionUuid": "22A5A247-632D-4211-B051-DEE4A54F1720",
+			"notValidBefore": "2020-12-15T14:31:20.110+00:00"
+		},
+		{
+			"id": 164,
+			"idSession": 1083,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T15:56:44.133+00:00",
+			"sessionUuid": "22A5A247-632D-4211-B051-DEE4A54F1720",
+			"notValidBefore": "2020-12-15T14:31:20.127+00:00"
+		},
+		{
+			"id": 165,
+			"idSession": 1083,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T15:56:44.467+00:00",
+			"sessionUuid": "22A5A247-632D-4211-B051-DEE4A54F1720",
+			"notValidBefore": "2020-12-15T14:31:20.143+00:00"
+		},
+		{
+			"id": 166,
+			"idSession": 1095,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T14:44:59.237+00:00",
+			"sessionUuid": "35680CCF-50DC-48CA-BE5D-74EAF34D2CD1",
+			"notValidBefore": "2020-12-15T15:01:57.990+00:00"
+		},
+		{
+			"id": 167,
+			"idSession": 1095,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T16:44:59.390+00:00",
+			"sessionUuid": "35680CCF-50DC-48CA-BE5D-74EAF34D2CD1",
+			"notValidBefore": "2020-12-15T15:01:58.007+00:00"
+		},
+		{
+			"id": 168,
+			"idSession": 1095,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T16:44:59.447+00:00",
+			"sessionUuid": "35680CCF-50DC-48CA-BE5D-74EAF34D2CD1",
+			"notValidBefore": "2020-12-15T15:01:58.007+00:00"
+		},
+		{
+			"id": 169,
+			"idSession": 1097,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T15:08:54.027+00:00",
+			"sessionUuid": "FA12B0F5-D7DA-433E-A5DD-E7B8D7958BC1",
+			"notValidBefore": "2020-12-15T15:45:16.107+00:00"
+		},
+		{
+			"id": 170,
+			"idSession": 1097,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T17:08:54.073+00:00",
+			"sessionUuid": "FA12B0F5-D7DA-433E-A5DD-E7B8D7958BC1",
+			"notValidBefore": "2020-12-15T15:45:16.120+00:00"
+		},
+		{
+			"id": 171,
+			"idSession": 1097,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T17:08:54.073+00:00",
+			"sessionUuid": "FA12B0F5-D7DA-433E-A5DD-E7B8D7958BC1",
+			"notValidBefore": "2020-12-15T15:45:16.120+00:00"
+		},
+		{
+			"id": 172,
+			"idSession": 1099,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T15:57:42.937+00:00",
+			"sessionUuid": "C9C461BC-534D-4471-B31A-C0B3DF8D33E5",
+			"notValidBefore": "2020-12-15T17:12:19.440+00:00"
+		},
+		{
+			"id": 173,
+			"idSession": 1099,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T17:57:44.253+00:00",
+			"sessionUuid": "C9C461BC-534D-4471-B31A-C0B3DF8D33E5",
+			"notValidBefore": "2020-12-15T17:12:19.457+00:00"
+		},
+		{
+			"id": 174,
+			"idSession": 1099,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T17:57:44.267+00:00",
+			"sessionUuid": "C9C461BC-534D-4471-B31A-C0B3DF8D33E5",
+			"notValidBefore": "2020-12-15T17:12:19.457+00:00"
+		},
+		{
+			"id": 175,
+			"idSession": 1100,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T17:15:15.827+00:00",
+			"sessionUuid": "5CE16917-C0FD-42D8-8354-EF3CF191F42B",
+			"notValidBefore": "2020-12-15T18:52:42.867+00:00"
+		},
+		{
+			"id": 176,
+			"idSession": 1100,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-15T19:15:19.033+00:00",
+			"sessionUuid": "5CE16917-C0FD-42D8-8354-EF3CF191F42B",
+			"notValidBefore": "2020-12-15T18:52:42.880+00:00"
+		},
+		{
+			"id": 177,
+			"idSession": 1100,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-15T19:15:19.043+00:00",
+			"sessionUuid": "5CE16917-C0FD-42D8-8354-EF3CF191F42B",
+			"notValidBefore": "2020-12-15T18:52:42.880+00:00"
+		},
+		{
+			"id": 178,
+			"idSession": 1096,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-16T15:05:41.153+00:00",
+			"sessionUuid": "C01D1961-56BE-4F2D-A5F5-3C9002BC063C",
+			"notValidBefore": "2020-12-16T01:33:54.550+00:00"
+		},
+		{
+			"id": 179,
+			"idSession": 1102,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T04:41:10.947+00:00",
+			"sessionUuid": "5E25C1D7-409D-415E-BFF5-58FE071E2D7F",
+			"notValidBefore": "2020-12-16T04:59:38.580+00:00"
+		},
+		{
+			"id": 180,
+			"idSession": 1102,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T06:41:11.273+00:00",
+			"sessionUuid": "5E25C1D7-409D-415E-BFF5-58FE071E2D7F",
+			"notValidBefore": "2020-12-16T04:59:38.580+00:00"
+		},
+		{
+			"id": 181,
+			"idSession": 1102,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T06:41:11.320+00:00",
+			"sessionUuid": "5E25C1D7-409D-415E-BFF5-58FE071E2D7F",
+			"notValidBefore": "2020-12-16T04:59:38.580+00:00"
+		},
+		{
+			"id": 182,
+			"idSession": 1101,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T04:02:44.790+00:00",
+			"sessionUuid": "DAC1D496-9562-45FE-AC47-031684F7AD37",
+			"notValidBefore": "2020-12-16T05:11:18.900+00:00"
+		},
+		{
+			"id": 183,
+			"idSession": 1101,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T06:02:49.570+00:00",
+			"sessionUuid": "DAC1D496-9562-45FE-AC47-031684F7AD37",
+			"notValidBefore": "2020-12-16T05:11:18.917+00:00"
+		},
+		{
+			"id": 184,
+			"idSession": 1101,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T06:02:49.577+00:00",
+			"sessionUuid": "DAC1D496-9562-45FE-AC47-031684F7AD37",
+			"notValidBefore": "2020-12-16T05:11:18.917+00:00"
+		},
+		{
+			"id": 185,
+			"idSession": 1104,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T05:19:41.483+00:00",
+			"sessionUuid": "4C793F72-040B-49AE-A351-9B2AE14C8EBB",
+			"notValidBefore": "2020-12-16T06:02:16.850+00:00"
+		},
+		{
+			"id": 186,
+			"idSession": 1104,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T07:19:41.587+00:00",
+			"sessionUuid": "4C793F72-040B-49AE-A351-9B2AE14C8EBB",
+			"notValidBefore": "2020-12-16T06:02:16.867+00:00"
+		},
+		{
+			"id": 187,
+			"idSession": 1104,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T07:19:41.593+00:00",
+			"sessionUuid": "4C793F72-040B-49AE-A351-9B2AE14C8EBB",
+			"notValidBefore": "2020-12-16T06:02:16.867+00:00"
+		},
+		{
+			"id": 188,
+			"idSession": 1103,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T05:13:45.643+00:00",
+			"sessionUuid": "3FFA7072-D95E-4C04-91A9-D8D4C505F4F5",
+			"notValidBefore": "2020-12-16T06:21:53.053+00:00"
+		},
+		{
+			"id": 189,
+			"idSession": 1103,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T07:13:46.753+00:00",
+			"sessionUuid": "3FFA7072-D95E-4C04-91A9-D8D4C505F4F5",
+			"notValidBefore": "2020-12-16T06:21:53.053+00:00"
+		},
+		{
+			"id": 190,
+			"idSession": 1103,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T07:13:46.753+00:00",
+			"sessionUuid": "3FFA7072-D95E-4C04-91A9-D8D4C505F4F5",
+			"notValidBefore": "2020-12-16T06:21:53.053+00:00"
+		},
+		{
+			"id": 191,
+			"idSession": 1111,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T08:01:08.027+00:00",
+			"sessionUuid": "CF30AB49-0177-4AC6-93D5-49E6DD6980D2",
+			"notValidBefore": "2020-12-16T08:17:10.673+00:00"
+		},
+		{
+			"id": 192,
+			"idSession": 1111,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T10:01:08.400+00:00",
+			"sessionUuid": "CF30AB49-0177-4AC6-93D5-49E6DD6980D2",
+			"notValidBefore": "2020-12-16T08:17:10.690+00:00"
+		},
+		{
+			"id": 193,
+			"idSession": 1111,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T10:01:08.417+00:00",
+			"sessionUuid": "CF30AB49-0177-4AC6-93D5-49E6DD6980D2",
+			"notValidBefore": "2020-12-16T08:17:10.703+00:00"
+		},
+		{
+			"id": 194,
+			"idSession": 1113,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T08:08:20.150+00:00",
+			"sessionUuid": "E60D6BEA-0C49-41CC-8C94-12E19E9C82A2",
+			"notValidBefore": "2020-12-16T08:30:56.170+00:00"
+		},
+		{
+			"id": 195,
+			"idSession": 1113,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T10:08:24.967+00:00",
+			"sessionUuid": "E60D6BEA-0C49-41CC-8C94-12E19E9C82A2",
+			"notValidBefore": "2020-12-16T08:30:56.170+00:00"
+		},
+		{
+			"id": 196,
+			"idSession": 1113,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T10:08:24.977+00:00",
+			"sessionUuid": "E60D6BEA-0C49-41CC-8C94-12E19E9C82A2",
+			"notValidBefore": "2020-12-16T08:30:56.183+00:00"
+		},
+		{
+			"id": 197,
+			"idSession": 1112,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T08:02:21.190+00:00",
+			"sessionUuid": "94124F98-FB3A-45D7-B047-E026CE032C27",
+			"notValidBefore": "2020-12-16T08:32:33.897+00:00"
+		},
+		{
+			"id": 198,
+			"idSession": 1112,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T10:02:21.270+00:00",
+			"sessionUuid": "94124F98-FB3A-45D7-B047-E026CE032C27",
+			"notValidBefore": "2020-12-16T08:32:33.897+00:00"
+		},
+		{
+			"id": 199,
+			"idSession": 1112,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T10:02:21.270+00:00",
+			"sessionUuid": "94124F98-FB3A-45D7-B047-E026CE032C27",
+			"notValidBefore": "2020-12-16T08:32:33.897+00:00"
+		},
+		{
+			"id": 200,
+			"idSession": 1110,
+			"typeOrApp": "I",
+			"expurgeAfter": "2020-12-17T07:33:13.027+00:00",
+			"sessionUuid": "76EA2C54-A3AE-455D-AC28-FBC74208DC9B",
+			"notValidBefore": "2020-12-16T10:09:45.490+00:00"
+		},
+		{
+			"id": 201,
+			"idSession": 1110,
+			"typeOrApp": "U",
+			"expurgeAfter": "2020-12-16T11:54:45.827+00:00",
+			"sessionUuid": "76EA2C54-A3AE-455D-AC28-FBC74208DC9B",
+			"notValidBefore": "2020-12-16T10:09:45.503+00:00"
+		},
+		{
+			"id": 202,
+			"idSession": 1110,
+			"typeOrApp": "ism",
+			"expurgeAfter": "2020-12-16T11:54:46.080+00:00",
+			"sessionUuid": "76EA2C54-A3AE-455D-AC28-FBC74208DC9B",
+			"notValidBefore": "2020-12-16T10:09:45.503+00:00"
+		}
+	]
+}

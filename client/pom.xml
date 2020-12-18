@@ -9,14 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>server</artifactId>
+    <artifactId>client</artifactId>
 
     <dependencies>
         <dependency>
-            <artifactId>common</artifactId>
+            <artifactId>example.streaming.web</artifactId>
             <groupId>glim.antony</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 
 </project>

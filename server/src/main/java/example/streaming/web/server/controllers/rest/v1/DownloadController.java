@@ -28,7 +28,7 @@ public class DownloadController {
         log.info("<-<- from '{}'", req.getRequestURL());
 
         resp.setContentType("application/zip");
-        resp.setHeader("Content-Disposition","attachment;filename=sample.zip");
+        resp.setHeader("Content-Disposition", "attachment;filename=sample.zip");
 
         StreamingResponseBody stream = out -> {
 
@@ -59,4 +59,5 @@ public class DownloadController {
         log.info("steaming response {} ", stream);
         return new ResponseEntity(stream, HttpStatus.OK);
     }
+
 }

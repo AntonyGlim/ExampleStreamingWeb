@@ -26,25 +26,24 @@ package example.streaming.web.client.core;
  *
  */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.CharBuffer;
-import java.util.concurrent.Future;
-
 import example.streaming.web.common.model.Item;
 import example.streaming.web.common.utils.JsonMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.http.HttpHost;
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
-import org.apache.http.impl.nio.client.HttpAsyncClients;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
 import org.apache.http.nio.IOControl;
 import org.apache.http.nio.client.methods.AsyncCharConsumer;
-import org.apache.http.nio.client.methods.HttpAsyncMethods;
 import org.apache.http.protocol.HttpContext;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.CharBuffer;
 
 /**
  * This example demonstrates an asynchronous HTTP request / response exchange with
@@ -53,30 +52,48 @@ import org.apache.http.protocol.HttpContext;
 @Slf4j
 public class AsyncClientHttpExchangeStreaming {
 
-    public static void main(final String[] args) throws Exception {
-        CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
-        try {
-            httpclient.start();
-
-            Future<Boolean> future = httpclient.execute(
-                    HttpAsyncMethods.createGet("http://192.168.200.58:8285/esw/item/stream/get/all"),
-                    new MyResponseConsumer(),
-                    null
-            );
-            Boolean result = future.get();
-
-            if (result != null && result) {
-                log.info("Request successfully executed");
-            } else {
-                log.info("Request failed");
+    public static void main(String[] args) throws IOException {
+        CloseableHttpClient client = HttpClients.createDefault();
+        HttpGet httpGet = new HttpGet("http://192.168.200.58:8285/esw/item/stream/get/all");
+        try (CloseableHttpResponse response1 = client.execute(httpGet)) {
+            final HttpEntity entity = response1.getEntity();
+            if (entity != null) {
+                try (InputStream inputStream = entity.getContent()) {
+                    BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+                    String line;
+                    while ((line = br.readLine()) != null) {
+                        log.info(line);
+                    }
+                }
             }
-            log.info("Shutting down");
-        } finally {
-            httpclient.close();
         }
-        log.info("Done");
     }
 
+
+
+//    public static void main(final String[] args) throws Exception {
+//        CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
+//        try {
+//            httpclient.start();
+//
+//            Future<Boolean> future = httpclient.execute(
+//                    HttpAsyncMethods.createGet("http://192.168.200.58:8285/esw/item/stream/get/all"),
+//                    new MyResponseConsumer(),
+//                    null
+//            );
+//            Boolean result = future.get();
+//
+//            if (result != null && result) {
+//                log.info("Request successfully executed");
+//            } else {
+//                log.info("Request failed");
+//            }
+//            log.info("Shutting down");
+//        } finally {
+//            httpclient.close();
+//        }
+//        log.info("Done");
+//    }
 
 
     static class MyResponseConsumer extends AsyncCharConsumer<Boolean> {

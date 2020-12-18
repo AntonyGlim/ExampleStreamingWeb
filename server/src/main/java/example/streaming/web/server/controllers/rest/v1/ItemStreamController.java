@@ -1,6 +1,7 @@
 package example.streaming.web.server.controllers.rest.v1;
 
 import example.streaming.web.common.model.Item;
+import example.streaming.web.common.utils.JsonMapper;
 import example.streaming.web.server.services.ItemService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +46,8 @@ public class ItemStreamController {
                 PrintWriter printWriter = new PrintWriter(resp.getOutputStream());
                 for (Item item : items.values()) {
                     Thread.sleep(100L);
-                    printWriter.println(item.toString());
+                    printWriter.println(JsonMapper.serializeObject(item));
+                    printWriter.flush();
                 }
                 printWriter.close();
 

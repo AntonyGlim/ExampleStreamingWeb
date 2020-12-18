@@ -17,6 +17,18 @@
             <groupId>glim.antony</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <!-- Http async client -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpasyncclient</artifactId>
+            <version>4.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>glim.antony</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 

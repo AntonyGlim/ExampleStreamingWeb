@@ -26,6 +26,9 @@ package example.streaming.web.client.core;
  *
  */
 
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
 import example.streaming.web.common.model.Item;
 import example.streaming.web.common.utils.JsonMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -53,15 +56,33 @@ import java.nio.CharBuffer;
 public class AsyncClientHttpExchangeStreaming {
 
     public static void main(String[] args) throws IOException {
+
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet("http://192.168.200.58:8285/esw/item/stream/get/all");
         try (CloseableHttpResponse response1 = client.execute(httpGet)) {
             final HttpEntity entity = response1.getEntity();
             if (entity != null) {
                 try (InputStream inputStream = entity.getContent()) {
+//                    JsonFactory factory = new JsonFactory();
+//                    JsonParser jParser = factory.createParser(inputStream);
+//                    while (jParser.nextToken() != JsonToken.END_ARRAY) {
+//                        String name = jParser.getCurrentName();
+//                        String text = jParser.getValueAsString();
+//                        log.info("name: {}, text: {}", name, text);
+//                    }
+//                    log.info("END");
+//                    jParser.close();
                     BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
                     String line;
                     while ((line = br.readLine()) != null) {
+                        JsonFactory factory = new JsonFactory();
+                        JsonParser jParser = factory.createParser(line);
+                        while (jParser.nextToken() != JsonToken.END_OBJECT) {
+                            String name = jParser.getCurrentName();
+                            String text = jParser.getValueAsString();
+                            log.info("name: {}, text: {}", name, text);
+                        }
+                        log.info("END");
                         log.info(line);
                     }
                 }
@@ -94,39 +115,39 @@ public class AsyncClientHttpExchangeStreaming {
 //        }
 //        log.info("Done");
 //    }
-
-
-    static class MyResponseConsumer extends AsyncCharConsumer<Boolean> {
-
-        final ItemRepository itemRepository = new ItemRepository();
-
-
-        @Override
-        protected void onResponseReceived(final HttpResponse response) {
-            log.info("onResponseReceived");
-        }
-
-        @Override
-        protected void onCharReceived(final CharBuffer buf, final IOControl ioctrl) throws IOException {
-            StringBuilder sb = new StringBuilder();
-            while (buf.hasRemaining()) {
-                sb.append(buf.get());
-            }
-            log.info("size: {}", itemRepository.getItems().size());
-            log.info("{}", sb.toString());
-            Item item = JsonMapper.deserializeObject(sb.toString(), Item.class);
-            itemRepository.getItems().put(item.getId(), item);
-        }
-
-        @Override
-        protected void releaseResources() {
-        }
-
-        @Override
-        protected Boolean buildResult(final HttpContext context) {
-            return Boolean.TRUE;
-        }
-
-    }
+//
+//
+//    static class MyResponseConsumer extends AsyncCharConsumer<Boolean> {
+//
+//        final ItemRepository itemRepository = new ItemRepository();
+//
+//
+//        @Override
+//        protected void onResponseReceived(final HttpResponse response) {
+//            log.info("onResponseReceived");
+//        }
+//
+//        @Override
+//        protected void onCharReceived(final CharBuffer buf, final IOControl ioctrl) throws IOException {
+//            StringBuilder sb = new StringBuilder();
+//            while (buf.hasRemaining()) {
+//                sb.append(buf.get());
+//            }
+//            log.info("size: {}", itemRepository.getItems().size());
+//            log.info("{}", sb.toString());
+//            Item item = JsonMapper.deserializeObject(sb.toString(), Item.class);
+//            itemRepository.getItems().put(item.getId(), item);
+//        }
+//
+//        @Override
+//        protected void releaseResources() {
+//        }
+//
+//        @Override
+//        protected Boolean buildResult(final HttpContext context) {
+//            return Boolean.TRUE;
+//        }
+//
+//    }
 
 }

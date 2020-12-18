@@ -44,11 +44,17 @@ public class ItemStreamController {
         StreamingResponseBody stream = out -> {
             try {
                 PrintWriter printWriter = new PrintWriter(resp.getOutputStream());
+                //printWriter.print("[");
+//                printWriter.flush();
                 for (Item item : items.values()) {
                     Thread.sleep(100L);
-                    printWriter.println(JsonMapper.serializeObject(item));
+                    String json = JsonMapper.serializeObject(item);
+                    log.info("json: '{}'", json);
+                    printWriter.println(json);
                     printWriter.flush();
                 }
+                //printWriter.print("]");
+//                printWriter.flush();
                 printWriter.close();
 
             } catch (final IOException | InterruptedException e) {

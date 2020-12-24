@@ -23,7 +23,7 @@ public class ItemRepository {
     private Itemiarium fillItemiarium() {
         Itemiarium itemiarium = new Itemiarium();
         for (int i = 0; i < 200; i++) {
-            itemiarium.getItems().put(i, new Item(i,UUID.randomUUID().toString(), new Date(System.currentTimeMillis())));
+            itemiarium.getItems().put(i, new Item(i,UUID.randomUUID().toString()/*, new Date(System.currentTimeMillis())*/));
         }
         return itemiarium;
     }

@@ -44,17 +44,23 @@ public class ItemStreamController {
         StreamingResponseBody stream = out -> {
             try {
                 PrintWriter printWriter = new PrintWriter(resp.getOutputStream());
-                //printWriter.print("[");
-//                printWriter.flush();
+                Long i = 0L;
+                printWriter.print("[");
+                printWriter.flush();
+
                 for (Item item : items.values()) {
                     Thread.sleep(100L);
                     String json = JsonMapper.serializeObject(item);
                     log.info("json: '{}'", json);
-                    printWriter.println(json);
+                    if (i > 0) {
+                        printWriter.print(",");
+                    }
+                    printWriter.print(json);
                     printWriter.flush();
+                    i++;
                 }
+                //FIXME  JSON FORMAT ERROR HERE ->>
                 //printWriter.print("]");
-//                printWriter.flush();
                 printWriter.close();
 
             } catch (final IOException | InterruptedException e) {

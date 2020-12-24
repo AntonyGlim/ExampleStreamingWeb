@@ -26,27 +26,19 @@ package example.streaming.web.client.core;
  *
  */
 
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.stream.JsonReader;
 import example.streaming.web.common.model.Item;
-import example.streaming.web.common.utils.JsonMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.nio.IOControl;
-import org.apache.http.nio.client.methods.AsyncCharConsumer;
-import org.apache.http.protocol.HttpContext;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.CharBuffer;
+import java.io.*;
+import java.lang.reflect.Type;
 
 /**
  * This example demonstrates an asynchronous HTTP request / response exchange with
@@ -56,7 +48,7 @@ import java.nio.CharBuffer;
 public class AsyncClientHttpExchangeStreaming {
 
     public static void main(String[] args) throws IOException {
-
+        Type tpe = Item.class;
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet("http://192.168.200.58:8285/esw/item/stream/get/all");
         try (CloseableHttpResponse response1 = client.execute(httpGet)) {
@@ -72,22 +64,56 @@ public class AsyncClientHttpExchangeStreaming {
 //                    }
 //                    log.info("END");
 //                    jParser.close();
-                    BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
-                    String line;
-                    while ((line = br.readLine()) != null) {
-                        JsonFactory factory = new JsonFactory();
-                        JsonParser jParser = factory.createParser(line);
-                        while (jParser.nextToken() != JsonToken.END_OBJECT) {
-                            String name = jParser.getCurrentName();
-                            String text = jParser.getValueAsString();
-                            log.info("name: {}, text: {}", name, text);
+
+
+//                    BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+//                    String line;
+//                    while ((line = br.readLine()) != null) {
+//                        JsonFactory factory = new JsonFactory();
+//                        JsonParser jParser = factory.createParser(line);
+//                        while (jParser.nextToken() != JsonToken.END_OBJECT) {
+//                            String name = jParser.getCurrentName();
+//                            String text = jParser.getValueAsString();
+//                            log.info("name: {}, text: {}", name, text);
+//                        }
+//                        log.info("END");
+//                        log.info(line);
+//                    }
+
+                    try(JsonReader jsonReader = new JsonReader(new InputStreamReader(inputStream)))
+                    {
+                        Gson gson = new GsonBuilder().create();
+                        jsonReader.beginArray() ; //start of json array
+                        int numberOfRecords = 0;
+                        while (jsonReader.hasNext()){ //next json array element
+
+                            Object o = gson.fromJson(jsonReader, tpe);
+                            processItem(o);
+                            //do something real
+//                System.out.println(document);
+                            numberOfRecords++;
+                            //System.out.println("Item done");
                         }
-                        log.info("END");
-                        log.info(line);
+                        jsonReader.endArray();
+                        System.out.println("Total Records Found : "+numberOfRecords);
+                    }
+                    catch (UnsupportedEncodingException e) {
+                        e.printStackTrace();
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (EOFException e) {
+                        System.out.println("EOF");
+                        //e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
                 }
             }
         }
+    }
+    private static void processItem(Object i)
+    {
+        System.out.println(i.getClass().getName());
     }
 
 

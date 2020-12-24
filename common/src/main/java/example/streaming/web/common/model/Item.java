@@ -17,5 +17,5 @@ import java.util.Date;
 public class Item {
     private Integer id;
     private String uuid;
-    private Date time;
+    //private Date time;
 }

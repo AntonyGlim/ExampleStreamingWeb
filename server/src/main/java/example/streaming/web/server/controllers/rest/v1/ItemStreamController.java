@@ -14,11 +14,8 @@ import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBo
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Map;
-import java.util.zip.ZipOutputStream;
 
 /*
  *
@@ -37,14 +34,15 @@ public class ItemStreamController {
     public ResponseEntity<StreamingResponseBody> getAllItems(HttpServletRequest req, final HttpServletResponse resp) {
         log.info("<-<- from '{}'", req.getRequestURL());
 
-        resp.setContentType("application/text");
+        resp.setContentType("text/plain");
 
         final Map<Integer, Item> items = itemService.getAllItems();
 
         StreamingResponseBody stream = out -> {
             try {
-                PrintWriter printWriter = new PrintWriter(resp.getOutputStream());
-                Long i = 0L;
+                //PrintWriter printWriter = new PrintWriter(resp.getOutputStream());
+                PrintWriter printWriter = new PrintWriter(out);
+                long count = 0L;
                 printWriter.print("[");
                 printWriter.flush();
 
@@ -52,23 +50,24 @@ public class ItemStreamController {
                     Thread.sleep(100L);
                     String json = JsonMapper.serializeObject(item);
                     log.info("json: '{}'", json);
-                    if (i > 0) {
-                        printWriter.print(",");
+                    if (count > 0) {
+                        printWriter.println(",");
                     }
                     printWriter.print(json);
                     printWriter.flush();
-                    i++;
+                    count++;
+                    //TODO request to repository if there are new items?
                 }
-                //FIXME  JSON FORMAT ERROR HERE ->>
-                //printWriter.print("]");
+                printWriter.print("]");
                 printWriter.close();
 
-            } catch (final IOException | InterruptedException e) {
+            } catch (InterruptedException e) {
                 log.error("Exception while reading and streaming data, message : '{}' ", e.getMessage());
             }
         };
+
         log.info("steaming response {} ", stream);
-        return new ResponseEntity(stream, HttpStatus.OK);
+        return new ResponseEntity<>(stream, HttpStatus.OK);
     }
 
 }

@@ -11,18 +11,9 @@
             <pattern>${MY__PATTERN}</pattern>
         </encoder>
     </appender>
-	
-<!--	<appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
-<!--      <file> ${LOG__HOME}log-${byDay}.log </file>-->
-<!--      <append>true</append>-->
-<!--      <encoder>-->
-<!--          <pattern>${MY__PATTERN}</pattern>-->
-<!--      </encoder>-->
-<!--   </appender>-->
 
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
-<!--		<appender-ref ref="FILE" />-->
     </root>
 
 </configuration>

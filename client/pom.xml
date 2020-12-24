@@ -12,10 +12,12 @@
     <artifactId>client</artifactId>
 
     <dependencies>
+        <!-- common module -->
         <dependency>
-            <artifactId>example.streaming.web</artifactId>
             <groupId>glim.antony</groupId>
+            <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <!-- Http async client -->
         <dependency>
@@ -23,19 +25,12 @@
             <artifactId>httpasyncclient</artifactId>
             <version>4.1.4</version>
         </dependency>
-        <dependency>
-            <groupId>glim.antony</groupId>
-            <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <!-- json parser -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.6</version>
         </dependency>
     </dependencies>
-
 
 </project>
